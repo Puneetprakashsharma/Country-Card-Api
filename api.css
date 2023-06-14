@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 26, 26);
+}
+.card{
+    width: 90%;
+    margin: 50px auto;
+    border: 2px solid red;
+    background-color: white;
+}
+.search-card{
+    width: 90%;
+    margin: 30px auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flag{
+    display: block;
+    margin: 5px auto 3px;
+    width: 250px;
+    height: 200px;
+}
+#inp{
+    width: 65%;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid grey;
+}
+.butt{
+    margin-left: 10px;
+    height: 50px;
+    background-color: rgb(190, 186, 82);
+    width: 20%;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nameCountry{
+    text-align: center;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+.country{
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15%;
+}
+.detail-inp{
+    width: 50%;
+    height: 40px;
+    padding: 2px 15px;
+    border: none;
+}
+.country-details{
+    display: none;
+}
